@@ -1,0 +1,52 @@
+.table 
+.thead {
+    background-color: lightblue;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+
+.th{
+    background-color: lightgrey;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+
+.tr{
+    background-color: lightskyblue;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+.td{
+    background-color: lightgray;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+.tfoot{
+    background-color: lightblue;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+
+
+.label {
+    line-break: normal;
+}
+
+.button{
+    background-color: lightgreen;
+    border:none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
