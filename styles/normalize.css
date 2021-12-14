@@ -1,5 +1,7 @@
-.table 
-.thead {
+table {
+    color: khaki;
+}
+thead {
     background-color: lightblue;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
@@ -7,29 +9,29 @@
     padding-right: 1em;
     }
 
-.th{
-    background-color: lightgrey;
+th{
+    background-color: rgb(63, 32, 65);
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     padding-left: 1em;
     padding-right: 1em;
     }
 
-.tr{
+tr{
     background-color: lightskyblue;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     padding-left: 1em;
     padding-right: 1em;
     }
-.td{
-    background-color: lightgray;
+td{
+    background-color: rgb(63, 32, 65);
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     padding-left: 1em;
     padding-right: 1em;
     }
-.tfoot{
+tfoot{
     background-color: lightblue;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
@@ -38,11 +40,11 @@
     }
 
 
-.label {
+label {
     line-break: normal;
 }
 
-.button{
+button{
     background-color: lightgreen;
     border:none;
     padding-top: 1em;

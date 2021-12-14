@@ -1,19 +1,10 @@
 * {
     box-sizing: border-box;
-    width: wrap;
-    max-width: 960px;
-    background-color: rgba(110, 90,145,1);
+    background-color: rgb(198, 174, 238);
 }
 
-@media screen and (max-width: 960px) {
-    * {
-        box-sizing: border-box;
-        width: wrap;
-        margin: auto;
-    }
-}
 
-width-wrap {
+#width-wrap {
       color: rgba(125,115,143,1);
       padding-left: 2em;
       padding-right: 2em;
@@ -38,30 +29,84 @@ width-wrap {
 
 }
 
-.h3 {
-    color: rgba( 80, 34,165,1);
+h3 {
+    color: rgb(43, 35, 56);
 }
 
-.h2 {
-    color: rgba(148,144,155,1 );
+h2 {
+    color: rgb(43, 35, 56);
 }
 
-.h1 {
-    color: rgba(125,115,143,1);
+h1 {
+    
+    background-image:url(../images/gradient.png) ;
+    background-clip: text;
+    color: transparent;
 }
 
-.ahref {
-    color: rgb(8, 2, 12);
+head {
 }
 
-.head {
-    color: khaki;
+body {
 }
 
-.body {
-    color:khaki;
+footer {
+    font-size: 75%;
+    text-align: center;
 }
 
-.footer {
-    color: khaki
+h1, h2, h3, h4, h5, h6 {font-family: 'Gelasio', serif;}
+
+body{font-family: 'Varela Round', sans-serif;
+line-height: 1.3;
 }
+
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+a :hover{
+    text-decoration: underline;
+}
+
+ol {list-style: upper-roman;}
+
+#menu{list-style: none;
+text-align: center;}
+
+#top{font-weight: bold;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+#bio {
+column-count: 3;
+column-gap: 2em;
+}
+
+#bio:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#column3 {
+    width: 100%;
+    margin-top: 1em;
+}
+
+#coffee{
+   padding: 2%;
+   background-color: white;
+   box-shadow: violet;
+}
+
+#top{
+    text-shadow: violet 75%;
+}
+
+#paris{float: right;}
+#dog{float: left;}
+.lpic{margin-inline: 2em;}
